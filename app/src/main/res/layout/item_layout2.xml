@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/item_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:id="@+id/fragment_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_toEndOf="@+id/item_Icon"
+        android:layout_toRightOf="@+id/item_Icon"
+        android:padding="10dp"
+        android:text="Item Will Appear"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_item_text"
+        android:layout_marginLeft="-110dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/fragment_item_text"
+        android:text="Sold :" />
+    <TextView
+        android:id="@+id/item_sold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_item_text"
+        android:layout_toRightOf="@id/textView2"
+        android:padding="5dp"
+        android:text="price"/>
+</RelativeLayout>

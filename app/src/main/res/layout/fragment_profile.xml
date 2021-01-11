@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/seeItemsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items" />
+    <Button
+        android:id="@+id/seeCustomersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEE CUSTOMERS"/>
+    <Button
+        android:id="@+id/seeSalesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEE ALL SALES"/>
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"/>
+</LinearLayout>

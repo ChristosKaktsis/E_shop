@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">E_Shop</string>
+    <string name="profile">profile</string>
+    <string name="cart">cart</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string-array name="category">
+        <item>MotherBoard</item>
+        <item>GPU</item>
+        <item>PSU</item>
+        <item>CPU</item>
+        <item>RAM</item>
+        <item>Case</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Περιγραφή" />
+    <string name="Description" />
+</resources>

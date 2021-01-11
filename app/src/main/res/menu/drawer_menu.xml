@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/category_CPU"
+            android:title="CPU">
+        </item>
+        <item
+            android:id="@+id/category_gpu"
+            android:title="GPU">
+        </item>
+        <item
+            android:id="@+id/category_motherboard"
+            android:title="Motherboard">
+        </item>
+        <item
+            android:id="@+id/category_psu"
+            android:title="PSU">
+        </item>
+        <item
+            android:id="@+id/category_ram"
+            android:title="RAM">
+        </item>
+        <item
+            android:id="@+id/category_case"
+            android:title="Case">
+        </item>
+
+    </group>
+
+</menu>
